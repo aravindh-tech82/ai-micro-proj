@@ -1,0 +1,11 @@
+rank,actual_class_id,actual_class_name,predicted_class_id,predicted_class_name,count,percentage_of_actual_class
+1,11,Right-of-way at next intersection,30,Beware of ice/snow,35,8.33
+2,7,Speed limit (100km/h),5,Speed limit (80km/h),26,5.78
+3,38,Keep right,8,Speed limit (120km/h),20,2.9
+4,5,Speed limit (80km/h),3,Speed limit (60km/h),20,3.17
+5,8,Speed limit (120km/h),5,Speed limit (80km/h),19,4.22
+6,18,General caution,27,Pedestrians,18,4.62
+7,9,No passing,3,Speed limit (60km/h),18,3.75
+8,30,Beware of ice/snow,23,Slippery road,17,11.33
+9,21,Double curve,31,Wild animals crossing,16,17.78
+10,30,Beware of ice/snow,29,Bicycles crossing,15,10.0

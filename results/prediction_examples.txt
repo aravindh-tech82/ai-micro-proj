@@ -1,0 +1,71 @@
+================================================================================
+             TRAFFIC SIGN PREDICTION INTELLIGENCE LAYER - TEST OUTPUTS          
+Project: Traffic Sign Recognition Using Neural Networks
+Model:   models/best_traffic_sign_cnn_improved.pth
+================================================================================
+--------------------------------------------------
+TRAFFIC SIGN PREDICTION
+--------------------------------------------------
+Actual Sign:               [7] Speed limit (100km/h)
+Predicted Sign:            [7] Speed limit (100km/h)
+Confidence:                99.90%
+Category:                  Speed Limit
+Meaning:                   Maximum vehicle speed permitted is 100 km/h.
+Recommended Driver Action: Do not exceed 100 km/h, standard on rural highways.
+Grad-CAM generated:        YES
+--------------------------------------------------
+--------------------------------------------------
+TRAFFIC SIGN PREDICTION
+--------------------------------------------------
+Actual Sign:               [14] Stop
+Predicted Sign:            [14] Stop
+Confidence:                100.00%
+Category:                  Prohibition / Regulatory
+Meaning:                   The driver must come to a complete stop.
+Recommended Driver Action: Stop completely and proceed only when safe.
+Grad-CAM generated:        YES
+--------------------------------------------------
+--------------------------------------------------
+TRAFFIC SIGN PREDICTION
+--------------------------------------------------
+Actual Sign:               [38] Keep right
+Predicted Sign:            [38] Keep right
+Confidence:                100.00%
+Category:                  Mandatory
+Meaning:                   Traffic must keep to the right side.
+Recommended Driver Action: Keep the vehicle to the right.
+Grad-CAM generated:        YES
+--------------------------------------------------
+--------------------------------------------------
+TRAFFIC SIGN PREDICTION
+--------------------------------------------------
+Actual Sign:               [25] Road work
+Predicted Sign:            [25] Road work
+Confidence:                100.00%
+Category:                  Warning
+Meaning:                   Construction or road maintenance operations ahead.
+Recommended Driver Action: Slow down, watch for road workers and machinery, and follow flagger instructions.
+Grad-CAM generated:        YES
+--------------------------------------------------
+--------------------------------------------------
+TRAFFIC SIGN PREDICTION
+--------------------------------------------------
+Actual Sign:               [22] Bumpy road
+Predicted Sign:            [22] Bumpy road
+Confidence:                100.00%
+Category:                  Warning
+Meaning:                   The road surface ahead is uneven, bumpy, or damaged.
+Recommended Driver Action: Slow down to prevent vehicle suspension damage or loss of traction.
+Grad-CAM generated:        YES
+--------------------------------------------------
+--------------------------------------------------
+TRAFFIC SIGN PREDICTION
+--------------------------------------------------
+Actual Sign:               [30] Beware of ice/snow
+Predicted Sign:            [30] Beware of ice/snow
+Confidence:                99.56%
+Category:                  Warning
+Meaning:                   Hazardous roadway conditions with snow, slush, or black ice ahead.
+Recommended Driver Action: Reduce speed significantly, brake gently, and maintain a large safety gap.
+Grad-CAM generated:        YES
+--------------------------------------------------

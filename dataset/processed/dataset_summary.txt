@@ -1,0 +1,65 @@
+================================================================================
+           GTSRB DATASET PREPROCESSING AND SPLIT SUMMARY                        
+================================================================================
+
+Total Images:      39270
+Number of Classes: 43
+Training Count:    21312
+Validation Count:  5328
+Testing Count:     12630
+
+Image Properties:
+  - Target Dimensions: 32x32 pixels
+  - Color Space:       RGB (3 channels)
+  - Normalization:     Pixel values normalized to [0.0, 1.0] (float32)
+  - Splits:            Stratified 80% Train / 20% Validation, Official Test Set
+
+--------------------------------------------------------------------------------
+Class ID   Train    Val      Test     Total    Class Name
+--------------------------------------------------------------------------------
+0          120      30       60       210      Speed limit (20km/h)
+1          1200     300      720      2220     Speed limit (30km/h)
+2          1200     300      750      2250     Speed limit (50km/h)
+3          768      192      450      1410     Speed limit (60km/h)
+4          1056     264      660      1980     Speed limit (70km/h)
+5          1008     252      630      1890     Speed limit (80km/h)
+6          240      60       150      450      End of speed limit (80km/h)
+7          768      192      450      1410     Speed limit (100km/h)
+8          768      192      450      1410     Speed limit (120km/h)
+9          792      198      480      1470     No passing
+10         1080     270      660      2010     No passing for vehicles over 3.5 metric tons
+11         720      180      420      1320     Right-of-way at next intersection
+12         1128     282      690      2100     Priority road
+13         1152     288      720      2160     Yield
+14         432      108      270      810      Stop
+15         336      84       210      630      No vehicles
+16         240      60       150      450      Vehicles over 3.5 metric tons prohibited
+17         600      150      360      1110     No entry
+18         648      162      390      1200     General caution
+19         120      30       60       210      Dangerous curve to the left
+20         192      48       90       330      Dangerous curve to the right
+21         192      48       90       330      Double curve
+22         216      54       120      390      Bumpy road
+23         288      72       150      510      Slippery road
+24         144      36       90       270      Road narrows on the right
+25         816      204      480      1500     Road work
+26         336      84       180      600      Traffic signals
+27         144      36       60       240      Pedestrians
+28         288      72       150      510      Children crossing
+29         144      36       90       270      Bicycles crossing
+30         240      60       150      450      Beware of ice/snow
+31         432      108      270      810      Wild animals crossing
+32         144      36       60       240      End of all speed and passing limits
+33         384      96       210      690      Turn right ahead
+34         240      60       120      420      Turn left ahead
+35         648      162      390      1200     Ahead only
+36         216      54       120      390      Go straight or right
+37         120      30       60       210      Go straight or left
+38         1104     276      690      2070     Keep right
+39         168      42       90       300      Keep left
+40         192      48       90       330      Roundabout mandatory
+41         144      36       60       240      End of no passing
+42         144      36       90       270      End of no passing by vehicles over 3.5 metric tons
+--------------------------------------------------------------------------------
+TOTAL      21312    5328     12630    39270   
+================================================================================

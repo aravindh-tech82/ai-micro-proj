@@ -1,0 +1,42 @@
+TRAFFIC SIGN RECOGNITION - TRAINING CONFIGURATION & PARAMETERS
+=================================================================
+
+Project Title:            Traffic Sign Recognition Using Neural Networks
+PyTorch Version:          2.14.1+cu130
+CUDA Version:             13.0
+Device:                   cuda
+GPU Name:                 NVIDIA GeForce RTX 4050 Laptop GPU
+
+Architecture:
+  Input:                  (3, 32, 32)
+  Conv Block 1:           Conv2D(3, 32, k=3, p=1) -> ReLU -> MaxPool2D(2)
+  Conv Block 2:           Conv2D(32, 64, k=3, p=1) -> ReLU -> MaxPool2D(2)
+  Conv Block 3:           Conv2D(64, 128, k=3, p=1) -> ReLU -> MaxPool2D(2)
+  Classifier:             Flatten (2048) -> Linear(2048, 512) -> ReLU -> Dropout(0.5) -> Linear(512, 43)
+
+Training Hyperparameters:
+  Batch Size:             64
+  Learning Rate:          0.001
+  Epochs:                 20
+  Optimizer:              Adam (lr=0.001)
+  Loss Function:          Class-Weighted CrossEntropyLoss (Train Split Weights Only)
+  Random Seed:            42
+  Data Augmentation:      RandomRotation(±10°), RandomAffine(translate 0.08), ColorJitter(0.15)
+
+Dataset Counts:
+  Training:               21312 images
+  Validation:             5328 images
+  Testing:                12630 images
+  Total:                  39270 images
+
+Results Summary:
+  Final Training Acc:     94.81%
+  Best Validation Acc:    98.67% (Epoch 19)
+  Test Set Loss:          0.6233
+  Test Set Accuracy:      88.69%
+  Total Training Time:    182.95 seconds (3.05 minutes)
+  Best Model Checkpoint:  C:\Desktop\Traffic-Sign-Recognition\models\best_traffic_sign_cnn.pth
+  History CSV:            C:\Desktop\Traffic-Sign-Recognition\results\training_history.csv
+  Accuracy Plot:          C:\Desktop\Traffic-Sign-Recognition\results\accuracy_curve.png
+  Loss Plot:              C:\Desktop\Traffic-Sign-Recognition\results\loss_curve.png
+  Test Predictions:       C:\Desktop\Traffic-Sign-Recognition\results\test_predictions.npz

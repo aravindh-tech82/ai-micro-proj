@@ -1,0 +1,11 @@
+rank,true_class_id,true_class_name,pred_class_id,pred_class_name,count,pct_of_true_class
+1,2,Speed limit (50km/h),5,Speed limit (80km/h),114,15.2
+2,11,Right-of-way at next intersection,30,Beware of ice/snow,47,11.19
+3,7,Speed limit (100km/h),5,Speed limit (80km/h),43,9.56
+4,2,Speed limit (50km/h),1,Speed limit (30km/h),43,5.73
+5,8,Speed limit (120km/h),5,Speed limit (80km/h),43,9.56
+6,2,Speed limit (50km/h),3,Speed limit (60km/h),42,5.6
+7,3,Speed limit (60km/h),5,Speed limit (80km/h),39,8.67
+8,18,General caution,26,Traffic signals,39,10.0
+9,4,Speed limit (70km/h),1,Speed limit (30km/h),37,5.61
+10,18,General caution,27,Pedestrians,34,8.72

@@ -1,0 +1,69 @@
+========================================================================================
+          IMPROVED CNN: GTSRB CLASSIFICATION REPORT (UNSEEN TEST SET)
+========================================================================================
+
+                                                    precision    recall  f1-score   support
+
+                              Speed limit (20km/h)     0.9825    0.9333    0.9573        60
+                              Speed limit (30km/h)     0.9673    0.9847    0.9759       720
+                              Speed limit (50km/h)     0.9732    0.9667    0.9699       750
+                              Speed limit (60km/h)     0.8625    0.9622    0.9097       450
+                              Speed limit (70km/h)     0.9816    0.9682    0.9748       660
+                              Speed limit (80km/h)     0.9002    0.9159    0.9079       630
+                       End of speed limit (80km/h)     0.9928    0.9200    0.9550       150
+                             Speed limit (100km/h)     0.9364    0.9156    0.9258       450
+                             Speed limit (120km/h)     0.9193    0.9111    0.9152       450
+                                        No passing     0.9978    0.9625    0.9799       480
+      No passing for vehicles over 3.5 metric tons     0.9985    0.9864    0.9924       660
+                 Right-of-way at next intersection     0.9872    0.9167    0.9506       420
+                                     Priority road     0.9970    0.9667    0.9816       690
+                                             Yield     0.9931    0.9958    0.9945       720
+                                              Stop     0.9574    1.0000    0.9783       270
+                                       No vehicles     0.9417    1.0000    0.9700       210
+          Vehicles over 3.5 metric tons prohibited     0.9615    1.0000    0.9804       150
+                                          No entry     0.9971    0.9667    0.9817       360
+                                   General caution     0.9883    0.8692    0.9250       390
+                       Dangerous curve to the left     0.8333    1.0000    0.9091        60
+                      Dangerous curve to the right     0.8333    1.0000    0.9091        90
+                                      Double curve     0.8000    0.6667    0.7273        90
+                                        Bumpy road     0.9917    1.0000    0.9959       120
+                                     Slippery road     0.8246    0.9400    0.8785       150
+                         Road narrows on the right     0.9778    0.9778    0.9778        90
+                                         Road work     0.9872    0.9604    0.9736       480
+                                   Traffic signals     0.8411    1.0000    0.9137       180
+                                       Pedestrians     0.7500    1.0000    0.8571        60
+                                 Children crossing     1.0000    0.9867    0.9933       150
+                                 Bicycles crossing     0.8571    1.0000    0.9231        90
+                                Beware of ice/snow     0.7324    0.6933    0.7123       150
+                             Wild animals crossing     0.9362    0.9778    0.9565       270
+               End of all speed and passing limits     0.8955    1.0000    0.9449        60
+                                  Turn right ahead     0.9677    1.0000    0.9836       210
+                                   Turn left ahead     0.9449    1.0000    0.9717       120
+                                        Ahead only     0.9974    0.9718    0.9844       390
+                              Go straight or right     0.9917    1.0000    0.9959       120
+                               Go straight or left     0.9836    1.0000    0.9917        60
+                                        Keep right     1.0000    0.9377    0.9678       690
+                                         Keep left     1.0000    0.9222    0.9595        90
+                              Roundabout mandatory     0.8529    0.9667    0.9062        90
+                                 End of no passing     1.0000    0.9167    0.9565        60
+End of no passing by vehicles over 3.5 metric tons     0.9783    1.0000    0.9890        90
+
+                                          accuracy                         0.9561     12630
+                                         macro avg     0.9375    0.9549    0.9443     12630
+                                      weighted avg     0.9582    0.9561    0.9562     12630
+
+
+----------------------------------------------------------------------------------------
+GLOBAL SUMMARY METRICS
+----------------------------------------------------------------------------------------
+Total Test Samples:       12630
+Correct Predictions:      12075
+Incorrect Predictions:    555
+Overall Test Accuracy:    0.9561 (95.61%)
+Macro Precision:          0.9375
+Macro Recall:             0.9549
+Macro F1-Score:           0.9443
+Weighted Precision:       0.9582
+Weighted Recall:          0.9561
+Weighted F1-Score:        0.9562
+========================================================================================

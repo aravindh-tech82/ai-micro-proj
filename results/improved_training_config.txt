@@ -1,0 +1,39 @@
+IMPROVED TRAFFIC SIGN RECOGNITION - TRAINING CONFIGURATION & PARAMETERS
+======================================================================
+
+Project Title:            Traffic Sign Recognition Using Neural Networks
+Model Type:               Improved CNN (BatchNorm + Dropout + CosineAnnealingLR)
+PyTorch Version:          2.14.1+cu130
+CUDA Version:             13.0
+Device:                   cuda
+GPU Name:                 NVIDIA GeForce RTX 4050 Laptop GPU
+
+Architecture:
+  Block 1: Conv2D(3, 32, k=3, p=1) -> BatchNorm2d(32) -> ReLU -> MaxPool2D(2) -> Dropout(0.1)
+  Block 2: Conv2D(32, 64, k=3, p=1) -> BatchNorm2d(64) -> ReLU -> MaxPool2D(2) -> Dropout(0.1)
+  Block 3: Conv2D(64, 128, k=3, p=1) -> BatchNorm2d(128) -> ReLU -> MaxPool2D(2) -> Dropout(0.2)
+  Classifier: Flatten (2048) -> Linear(2048, 512) -> BatchNorm1d(512) -> ReLU -> Dropout(0.5) -> Linear(512, 43)
+
+Hyperparameters:
+  Batch Size:             64
+  Learning Rate:          0.001
+  Weight Decay:           1e-4
+  Epochs:                 20
+  Optimizer:              Adam (lr=0.001, weight_decay=1e-4)
+  LR Scheduler:           CosineAnnealingLR (T_max=20, eta_min=1e-5)
+  Loss Function:          Class-Weighted CrossEntropyLoss (Train Split Only)
+  Random Seed:            42
+  Data Augmentation:      RandomRotation(+/-12 deg), RandomAffine(translate 0.10, scale 0.9-1.1), ColorJitter(0.20)
+
+Measured Results Summary:
+  Final Training Acc:     94.73%
+  Best Validation Acc:    99.64% (Epoch 19)
+  Test Set Loss:          0.1508
+  Test Set Accuracy:      95.61%
+  Macro Precision:        0.9375
+  Macro Recall:           0.9549
+  Macro F1-Score:         0.9443
+  Weighted Precision:     0.9582
+  Weighted Recall:        0.9561
+  Weighted F1-Score:      0.9562
+  Total Training Time:    121.07 seconds (2.02 minutes)
