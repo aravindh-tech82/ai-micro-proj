@@ -1,0 +1,18 @@
+===============================================================================================
+             GTSRB LIVE DEMONSTRATION INPUT IMAGES - METADATA INDEX
+             Project: Traffic Sign Recognition Using Neural Networks
+===============================================================================================
+
+Filename                   Original GTSRB Filename    Class ID   Actual Class Name             
+-----------------------------------------------------------------------------------------------
+01_speed_limit_30.jpg      10841.ppm                  1          Speed limit (30km/h)          
+02_speed_limit_50.jpg      00034.ppm                  2          Speed limit (50km/h)          
+03_speed_limit_80.jpg      04559.ppm                  5          Speed limit (80km/h)          
+04_speed_limit_100.jpg     07162.ppm                  7          Speed limit (100km/h)         
+05_stop.jpg                09839.ppm                  14         Stop                          
+06_yield.jpg               07384.ppm                  13         Yield                         
+07_keep_right.jpg          00002.ppm                  38         Keep right                    
+08_turn_right.jpg          08357.ppm                  33         Turn right ahead              
+09_bumpy_road.jpg          03737.ppm                  22         Bumpy road                    
+10_ice_snow.jpg            00723.ppm                  30         Beware of ice/snow            
+===============================================================================================
